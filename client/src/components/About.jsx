@@ -9,7 +9,7 @@ function About() {
       <div className="about_container container grid">
         <img src="src/assets/IMG_7072.png" alt="" className="about_img" />
         <div className="about_data">
-          <p className="about_description">Enthusiastic Applied Statistics with Computing graduate from Moi University. A Full-Stack Web Developer with experience in Javascript, MERN Stack.</p>
+          <p className="about_description">A highly motivated and dedicated entry-level frontend developer with a passion for creating immersive web experiences. I specialise in transforming design concepts into responsive and user-friendly websites.My journey in the world of web development began when I discovered my love for crafting elegant and functional interfaces. With a solid foundation in HTML, CSS, and JavaScript, I have honed my skills through various personal projects that I have proudly showcased on my LinkedIn profile.</p>
 
           <div className="about_info">
             <div>
