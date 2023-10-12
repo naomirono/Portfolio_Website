@@ -9,7 +9,7 @@ function Skills() {
       icon: <FiCode className="skills_icon" />,
       title: 'Frontend Developer',
       subtitle: 'More than 1 year',
-      items: ['HTML5', 'CSS3', 'Bootstrap', 'Javascript', 'React']
+      items: ['HTML5', 'CSS3', 'TailwindCss', 'Javascript', 'React']
     },
     {
       icon: <FiServer className="skills_icon" />,
@@ -19,9 +19,9 @@ function Skills() {
     },
     {
       icon: <FiServer className="skills_icon" />,
-      title: 'Tech Stack',
+      title: 'Version Control Tools',
       subtitle: 'More than 1 year',
-      items: ['Visual Studio Code', 'Git']
+      items: ['Git', 'Github']
     }
   ];
 
