@@ -81,11 +81,11 @@ function Qualification() {
           <div className="qualification_content" data-content id="work">
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Intern</h3>
-                <span className="qualification_subtitle">Unilever Tea Limited</span>
+                <h3 className="qualification_title">Software Engineer Intern</h3>
+                <span className="qualification_subtitle">Amaris Solution Group</span>
                 <div className="qualification_calendar">
                   <FiCalendar /> {/* Replaced <i> tag with React icon */}
-                  2020 - 2020
+                  April 2023 - July 2023
                 </div>
               </div>
 
@@ -107,7 +107,7 @@ function Qualification() {
                 <span className="qualification_subtitle">Unilever Tea Limited</span>
                 <div className="qualification_calendar">
                   <FiCalendar /> {/* Replaced <i> tag with React icon */}
-                  2019 - 2020
+                  2020 - 2020
                 </div>
               </div>
             </div>
