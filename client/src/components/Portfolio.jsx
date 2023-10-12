@@ -41,15 +41,15 @@ const Portfolio = () => {
   const portfolioItems = [
     {
       imgSrc: 'src/assets/Untitled design (6).png',
-      title: 'Shoe Website',
-      description: 'Website adaptable to all devices, with ui components and animated interactions.',
+      title: 'Tree Planting Website with Stripe and M-Pesa Integration',
+      description: 'Built a dynamic tree planting website utilizing React and Tailwind Css for the frontend, Node.js for the backend, and MongoDB for the database. Skillfully integrated both Stripe and M-Pesa payment gateways to streamline donation processing, showcasing expertise in front-end development, payment integration, and API utilization.',
       demoLink: 'https://shoe-website-neyo.web.app',
     },
     {
       imgSrc: 'src/assets/Untitled design (6).png',
-      title: 'BMI Calculator',
-      description: 'Website adaptable to all devices, with ui components and animated interactions.',
-      demoLink: '#',
+      title: 'Construction Company Website',
+      description: 'Developed and designed a static website for a construction company as a personal project, using HTML, CSS, and JavaScript. Designed a visually appealing and a user-friendly website that showcases the companys services and projects. Implemented responsive design techniques to ensure the website looked great on desktop and mobile devices.',
+      demoLink: 'https://atesta-solutions.web.app/',
     },
     {
       imgSrc: 'src/assets/Untitled design (6).png',
