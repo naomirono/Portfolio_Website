@@ -7,6 +7,7 @@ import Qualification from './components/Qualification';
 import Services from './components/Service';
 import Portfolio from './components/Portfolio';
 import Project from './components/Project';
+import ContactSection from './components/Contact';
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
       <Services/>
       <Portfolio/>
       <Project/>
+      <ContactSection/>
     </div>
   );
 }
