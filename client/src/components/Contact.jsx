@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaEnvelope, FaPhoneAlt, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import Image from 'src/assets/hero1.png'
+import { FaEnvelope, FaPhoneAlt, FaTwitter, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa';
+import Image from '../assets/hero1.png'
 
 const ContactSection = () => {
     
@@ -10,19 +10,19 @@ const ContactSection = () => {
   };
   
   return (
-    <section id='contact' className="bg-cover bg-no-repeat" style={{ backgroundImage: `url(${Image})` }}>
-      <div className='bg-black bg-opacity-50 py-16 px-4 sm:px-8'>
-      <div className="container max-w-[1200px] mx-auto border-4 border-green-900 rounded-[24px] p-6 bg-white bg-opacity-40 backdrop-filter backdrop-blur-lg">
+    <section id='contact' className="bg-custom-color">
+      <div className='py-16 px-4 sm:px-8'>
+      <div className="container max-w-[1200px] mx-auto rounded-[24px] p-6 bg-white bg-opacity-40 backdrop-filter backdrop-blur-lg">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
             <p className="text-gray-800 mb-6 pr-0 sm:pr-10">Have questions or want to get involved? We'd love to hear from you. Reach out to us using the contact details below or fill out the form and we'll get back to you as soon as possible.</p>
             <ul className="text-gray-800">
-              <li className="mb-2"><FaEnvelope className="inline-block mr-2 text-green-900" /> Email: info@TreeHaven.org</li>
-              <li className="mb-2"><FaPhoneAlt className="inline-block mr-2 text-green-900" /> Phone: +1234567890</li>
-              <li className="mb-2"><FaTwitter className="inline-block mr-2 text-blue-500 hover:text-blue-700 cursor-pointer" /> Twitter: @TreeHaven</li>
-              <li className="mb-2"><FaFacebook className="inline-block mr-2 text-blue-500 hover:text-blue-700 cursor-pointer" /> Facebook: @TreeHaven</li>
-              <li><FaInstagram className="inline-block mr-2 text-pink-500 hover:text-pink-700 cursor-pointer" /> Instagram: @Treehaven</li>
+              <li className="mb-2"><FaEnvelope className="inline-block mr-2 text-custom-color cursor-pointer" /> Email: naomirono1454@gmail.com</li>
+              <li className="mb-2"><FaPhoneAlt className="inline-block mr-2 text-custom-color cursor-pointer" /> Phone: +254706535423</li>
+              <li className="mb-2"><FaLinkedin className="inline-block mr-2 text-blue-700 cursor-pointer" /> LinkedIn: @Naomi Cherotich</li>
+              <li className="mb-2"><FaGithub className="inline-block mr-2 text-black cursor-pointer" /> Github: @naomirono</li>
+              <li><FaTwitter className="inline-block mr-2 text-blue-500 cursor-pointer" /> Twitter: @naomirono</li>
             </ul>
           </div>
           <div className="md:w-1/2">
@@ -65,7 +65,7 @@ const ContactSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-green-900 hover:bg-blue-600 text-white py-2 px-4 rounded-md focus:outline-none"
+              className="bg-custom-color hover:bg-blue-600 text-white py-2 px-4 rounded-md focus:outline-none"
             >
               Submit
             </button>
