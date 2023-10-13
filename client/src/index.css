@@ -832,8 +832,7 @@ visibility:visible ;
 }
 /*==================== FOOTER ====================*/
 .footer{
-    padding-top: 2rem;
-
+    padding-top: 5rem;
 
 }
 .footer_container{
@@ -841,7 +840,7 @@ visibility:visible ;
 }
 .footer_bg{
 background-color: var(--first-color-second);
-padding: 2rem 0 3rem;
+/* padding: 2rem 0 3rem; */
 }
 .footer_title{
     font-size: var(--h1-font-size);
