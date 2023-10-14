@@ -15,7 +15,7 @@ const ContactSection = () => {
       <div className="container max-w-[1200px] mx-auto rounded-[24px] p-6 bg-white bg-opacity-40 backdrop-filter backdrop-blur-lg">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Me</h2>
             <p className="text-gray-800 mb-6 pr-0 sm:pr-10">Have questions or want to get involved? We'd love to hear from you. Reach out to us using the contact details below or fill out the form and we'll get back to you as soon as possible.</p>
             <ul className="text-gray-800">
               <li className="mb-2"><FaEnvelope className="inline-block mr-2 text-custom-color cursor-pointer" /> Email: naomirono1454@gmail.com</li>
