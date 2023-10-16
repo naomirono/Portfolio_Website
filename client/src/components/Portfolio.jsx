@@ -40,7 +40,7 @@ const Portfolio = () => {
 
   const portfolioItems = [
     {
-      imgSrc: 'src/assets/Untitled design (6).png',
+      imgSrc: '[https://neyoportfolio.s3.eu-north-1.amazonaws.com/TreeHaven.png]',
       title: 'Tree Planting Website with Stripe and M-Pesa Integration',
       description: 'Built a dynamic tree planting website utilizing React and Tailwind Css for the frontend, Node.js for the backend, and MongoDB for the database. Skillfully integrated both Stripe and M-Pesa payment gateways to streamline donation processing, showcasing expertise in front-end development, payment integration, and API utilization.',
       demoLink: 'https://shoe-website-neyo.web.app',
@@ -53,8 +53,8 @@ const Portfolio = () => {
     },
     {
       imgSrc: 'src/assets/Untitled design (6).png',
-      title: 'Classic Website',
-      description: 'Website adaptable to all devices, with ui components and animated interactions.',
+      title: 'Travel Agency Landing page',
+      description: 'a stunning landing page for a travel agency crafted using React and Slick Carousel. Built with React for seamless UI, Slick Carousel for smooth image sliders,Tailwind CSS for sleek styling.',
       demoLink: '#',
     },
     {
