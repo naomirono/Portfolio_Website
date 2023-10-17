@@ -29,7 +29,7 @@ function About() {
           </div>
 
           <div className="about_buttons">
-            <a href="src/assets/pdf/Naomi Cherotich.pdf" download="" className="button button--flex">
+            <a href="https://neyoportfolio.s3.eu-north-1.amazonaws.com/Naomi+Cherotich+.pdf" download="" className="button button--flex">
               Download Resume
               <FaFileDownload className="button_icon" />
             </a>
