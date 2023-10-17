@@ -8,7 +8,7 @@ function Home() {
       <div className="home_container container grid">
         <div className="home_content grid">
           <div className="home_social">
-            <a href="www.linkedin.com/in/naomi-rono/" className="home_social-icon">
+            <a href="http://www.linkedin.com/in/naomi-rono/" className="home_social-icon">
               <FaLinkedin />
             </a>
 
