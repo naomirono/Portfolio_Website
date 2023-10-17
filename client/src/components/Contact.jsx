@@ -20,8 +20,8 @@ const ContactSection = () => {
             <ul className="text-gray-800">
               <li className="mb-2"><FaEnvelope className="inline-block mr-2 text-custom-color cursor-pointer" /> Email: naomirono1454@gmail.com</li>
               <li className="mb-2"><FaPhoneAlt className="inline-block mr-2 text-custom-color cursor-pointer" /> Phone: +254706535423</li>
-              <li className="mb-2"><FaLinkedin className="inline-block mr-2 text-blue-700 cursor-pointer" /> LinkedIn: @Naomi Cherotich</li>
-              <li className="mb-2"><FaGithub className="inline-block mr-2 text-black cursor-pointer" /> Github: @naomirono</li>
+              <li className="mb-2"><FaLinkedin className="inline-block mr-2 text-blue-700 cursor-pointer" /> <a href="http://www.linkedin.com/in/naomi-rono/" target="_blank" rel="noopener noreferrer">LinkedIn: @YourName</a></li>
+              <li className="mb-2"><FaGithub className="inline-block mr-2 text-black cursor-pointer" /> <a href="https://github.com/naomirono" target="_blank" rel="noopener noreferrer">Github: @naomirono</a></li>
               <li><FaTwitter className="inline-block mr-2 text-blue-500 cursor-pointer" /> Twitter: @naomirono</li>
             </ul>
           </div>
