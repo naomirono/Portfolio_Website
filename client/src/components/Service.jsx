@@ -50,19 +50,19 @@ function Services() {
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
                   <FiCode className="services_modal-icon" />
-                  <p>I develop the user interface.</p>
+                  <p>I create interactive user interfaces.</p>
                 </li>
                 <li className="services_modal-service">
                   <FiCode className="services_modal-icon" />
-                  <p>Web page development.</p>
+                  <p>Implement responsive web design.</p>
                 </li>
                 <li className="services_modal-service">
                   <FiCode className="services_modal-icon" />
-                  <p>I create UX element interactions.</p>
+                  <p>Utilize modern JavaScript frameworks like React.</p>
                 </li>
                 <li className="services_modal-service">
                   <FiCode className="services_modal-icon" />
-                  <p>I position your company brand.</p>
+                  <p>Optimize website performance for fast loading times.</p>
                 </li>
               </ul>
             </div>
@@ -88,62 +88,25 @@ function Services() {
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
                   <FiCode className="services_modal-icon" />
-                  <p>I develop the user interface.</p>
+                  <p>Design and implement server-side logic and APIs.</p>
                 </li>
                 <li className="services_modal-service">
                   <FiCode className="services_modal-icon" />
-                  <p>Web page development.</p>
+                  <p>Develop database architecture and management.</p>
                 </li>
                 <li className="services_modal-service">
                   <FiCode className="services_modal-icon" />
-                  <p>I create UX element interactions.</p>
+                  <p>Ensure system scalability and performance.</p>
                 </li>
                 <li className="services_modal-service">
                   <FiCode className="services_modal-icon" />
-                  <p>I position your company brand.</p>
+                  <p>Implement security measures to protect data and user information.</p>
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div className="services_content">
-          <div>
-            <FiCode className="services_icon" />
-            <h3 className="services_title">Frontend <br /> Developer</h3>
-          </div>
-
-          <span className="button button--flex button--small button--link services_button">
-            View More
-            <FiCode className="button_icon" />
-          </span>
-
-          <div className="services_modal">
-            <div className="services_modal-content">
-              <h4 className="services_modal-title">Frontend <br /> Developer</h4>
-              <FiCode className="services_modal-close" />
-
-              <ul className="services_modal-services grid">
-                <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
-                  <p>I develop the user interface.</p>
-                </li>
-                <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
-                  <p>Web page development.</p>
-                </li>
-                <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
-                  <p>I create UX element interactions.</p>
-                </li>
-                <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
-                  <p>I position your company brand.</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
