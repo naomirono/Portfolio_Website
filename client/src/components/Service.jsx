@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { FiCode } from 'react-icons/fi';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 function Services() {
   useEffect(() => {
@@ -45,7 +46,7 @@ function Services() {
           <div className="services_modal">
             <div className="services_modal-content">
               <h4 className="services_modal-title">Frontend <br /> Developer</h4>
-              <FiCode className="services_modal-close" />
+              <AiOutlineCloseCircle  className="services_modal-close" />
 
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
@@ -83,7 +84,7 @@ function Services() {
           <div className="services_modal">
             <div className="services_modal-content">
               <h4 className="services_modal-title">Backend <br /> Developer</h4>
-              <FiCode className="services_modal-close" />
+              <AiOutlineCloseCircle  className="services_modal-close" />
 
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
