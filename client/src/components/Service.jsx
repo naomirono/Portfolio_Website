@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FiCode } from 'react-icons/fi';
+import { FiCode, FiServer } from 'react-icons/fi';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 function Services() {
@@ -72,7 +72,7 @@ function Services() {
 
         <div className="services_content">
           <div>
-            <FiCode className="services_icon" />
+            <FiServer className="services_icon" />
             <h3 className="services_title">Backend <br /> Developer</h3>
           </div>
 
