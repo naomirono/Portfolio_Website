@@ -27,14 +27,14 @@ function Skills() {
 
   const handleSkillClick = (index) => {
     if (openSkill === index) {
-      setOpenSkill(null); // Close if already open
+      setOpenSkill(null); 
     } else {
-      setOpenSkill(index); // Open the clicked skill
+      setOpenSkill(index); 
     }
   };
 
   const handleMouseLeave = () => {
-    setOpenSkill(null); // Close on mouse leave
+    setOpenSkill(null); 
   };
 
   return (
