@@ -444,6 +444,9 @@ img {
     display: flex;
     justify-content: center;
 }
+.about_div{
+    background-color:var(--first-color);
+}  
 /*==================== SKILLS ====================*/
 .skills_container{
     row-gap: 0;
