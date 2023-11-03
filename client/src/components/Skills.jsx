@@ -6,13 +6,13 @@ function Skills() {
 
   const skillsData = [
     {
-      icon: <FiCode className="skills_icon" />,
+      icon: <i class="uil uil-brackets-curly skills_icon"></i>,
       title: 'Frontend Developer',
       subtitle: 'More than 1 year',
       items: ['HTML5', 'CSS3', 'TailwindCss', 'Javascript', 'React']
     },
     {
-      icon: <FiServer className="skills_icon" />,
+      icon: <i class="uil uil-server-network skills_icon"></i>,
       title: 'Backend Developer',
       subtitle: 'More than 1 year',
       items: ['Node Js', 'MongoDB', 'Firebase', 'Express']
