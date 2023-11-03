@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FiCode, FiServer } from 'react-icons/fi';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const [theme, setTheme] = useState(localStorage.getItem('selected-theme') || 'light');
+  const [theme, setTheme] = useState(
+    localStorage.getItem('selected-theme') || 'light'
+  );
 
   const handleToggleMenu = () => {
     setShowMenu(!showMenu);
@@ -14,49 +16,56 @@ const Header = () => {
   };
 
   const handleThemeToggle = () => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
-    localStorage.setItem('selected-theme', theme === 'light' ? 'dark' : 'light');
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('selected-theme', newTheme);
   };
+
+  useEffect(() => {
+    document.body.classList.toggle('dark-theme', theme === 'dark');
+  }, [theme]);
 
   return (
     <header className={`header ${theme}`} id="header">
       <nav className="nav container">
-        <a href="#" className="nav_logo">Naomi</a>
+        <a href="#" className="nav_logo">
+          Naomi
+        </a>
 
         <div className={`nav_menu ${showMenu ? 'show-menu' : ''}`} id="nav-menu">
           <ul className="nav_list grid">
             <li className="nav_item">
               <a href="#home" className="nav_link active-link">
-                <FiCode className="nav_icon" />Home
+              <i class="uil uil-estate nav_icon"></i>Home
               </a>
             </li>
             <li className="nav_item">
               <a href="#about" className="nav_link" onClick={handleLinkClick}>
-                <FiCode className="nav_icon" />About
+              <i class="uil uil-user-circle nav_icon"></i>About
               </a>
             </li>
 
             <li className="nav_item">
               <a href="#skills" className="nav_link" onClick={handleLinkClick}>
-                <FiCode className="nav_icon" />Skills
+              <i class="uil uil-file-alt nav_icon"></i>Skills
               </a>
             </li>
 
             <li className="nav_item">
               <a href="#services" className="nav_link" onClick={handleLinkClick}>
-                <FiCode className="nav_icon" />Services
+              <i class="uil uil-briefcase-alt nav_icon"></i>Services
               </a>
             </li>
 
             <li className="nav_item">
               <a href="#portfolio" className="nav_link" onClick={handleLinkClick}>
-                <FiCode className="nav_icon" />Portfolio
+              <i class="uil uil-scenery nav_icon"></i>Portfolio
               </a>
             </li>
 
             <li className="nav_item">
               <a href="#contact" className="nav_link" onClick={handleLinkClick}>
-                <FiCode className="nav_icon" />Contactme
+              <i class="uil uil-message nav_icon"></i>Contactme
               </a>
             </li>
           </ul>
@@ -66,7 +75,11 @@ const Header = () => {
 
         <div className="nav_btns">
           <div className="change-theme" id="theme-button" onClick={handleThemeToggle}>
-            {theme === 'light' ? <FiCode /> : <FiServer />}
+            {theme === 'light' ? (
+              <i className="uil uil-moon"></i>
+            ) : (
+              <i className="uil uil-sun"></i>
+            )}
           </div>
 
           <div className="nav_toggle" id="nav-toggle" onClick={handleToggleMenu}>
@@ -76,6 +89,9 @@ const Header = () => {
       </nav>
     </header>
   );
-}
+};
 
 export default Header;
+
+
+
