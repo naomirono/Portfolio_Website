@@ -25,7 +25,7 @@ const About = () => {
           <div className="md:w-1/2 mt-8 md:mt-0 md:ml-20">
 
             <p className="text-lg">
-              A highly motivated and dedicated entry-level frontend developer with a passion for creating immersive web experiences. I specialise in transforming design concepts into responsive and user-friendly websites.My journey in the world of web development began when I discovered my love for crafting elegant and functional interfaces. With a solid foundation in HTML, CSS, and JavaScript, I have honed my skills through various personal projects that I have proudly showcased on my LinkedIn profile.
+              A highly motivated and dedicated frontend developer with a passion for creating immersive web experiences. I specialise in transforming design concepts into responsive and user-friendly websites.My journey in the world of web development began when I discovered my love for crafting elegant and functional interfaces. With a solid foundation in HTML, CSS, and JavaScript, I have honed my skills through various personal projects that I have proudly showcased on my LinkedIn profile.
             </p>
 
             <div className="about_info flex justify-center mb-6">
@@ -35,7 +35,7 @@ const About = () => {
               </div>
 
               <div className="text-center mx-4">
-                <span className="about_info-title">3+</span>
+                <span className="about_info-title">5+</span>
                 <span className="about_info-name block">Completed projects</span>
               </div>
 
