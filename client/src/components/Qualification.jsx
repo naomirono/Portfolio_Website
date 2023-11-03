@@ -33,11 +33,11 @@ function Qualification() {
       <div className="qualification_container container">
         <div className="qualification_tabs">
           <div className="qualification_button button--flex qualification_active" data-target="#education">
-            <FiCode className="qualification_icon" />
+          <i class="uil uil-graduation-cap qualification_icon"></i>
             Education
           </div>
           <div className="qualification_button button--flex" data-target="#work">
-            <FiServer className="qualification_icon" />
+          <i class="uil uil-briefcase-alt qualification_icon"></i>
             Work
           </div>
         </div>
