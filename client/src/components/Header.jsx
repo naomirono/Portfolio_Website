@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiCode, FiServer } from 'react-icons/fi';
+import { FiCode } from 'react-icons/fi';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -36,41 +36,41 @@ const Header = () => {
           <ul className="nav_list grid">
             <li className="nav_item">
               <a href="#home" className="nav_link active-link">
-              <i class="uil uil-estate nav_icon"></i>Home
+              <i className="uil uil-estate nav_icon"></i>Home
               </a>
             </li>
             <li className="nav_item">
               <a href="#about" className="nav_link" onClick={handleLinkClick}>
-              <i class="uil uil-user-circle nav_icon"></i>About
+              <i className="uil uil-user-circle nav_icon"></i>About
               </a>
             </li>
 
             <li className="nav_item">
               <a href="#skills" className="nav_link" onClick={handleLinkClick}>
-              <i class="uil uil-file-alt nav_icon"></i>Skills
+              <i className="uil uil-file-alt nav_icon"></i>Skills
               </a>
             </li>
 
             <li className="nav_item">
               <a href="#services" className="nav_link" onClick={handleLinkClick}>
-              <i class="uil uil-briefcase-alt nav_icon"></i>Services
+              <i className="uil uil-briefcase-alt nav_icon"></i>Services
               </a>
             </li>
 
             <li className="nav_item">
               <a href="#portfolio" className="nav_link" onClick={handleLinkClick}>
-              <i class="uil uil-scenery nav_icon"></i>Portfolio
+              <i className="uil uil-scenery nav_icon"></i>Portfolio
               </a>
             </li>
 
             <li className="nav_item">
               <a href="#contact" className="nav_link" onClick={handleLinkClick}>
-              <i class="uil uil-message nav_icon"></i>Contactme
+              <i className="uil uil-message nav_icon"></i>Contactme
               </a>
             </li>
           </ul>
 
-          <FiCode className="nav_close" id="nav-close" onClick={handleToggleMenu} />
+          <i className="uil uil-times nav_close" id="nav-close" onClick={handleToggleMenu}></i>
         </div>
 
         <div className="nav_btns">
@@ -83,7 +83,7 @@ const Header = () => {
           </div>
 
           <div className="nav_toggle" id="nav-toggle" onClick={handleToggleMenu}>
-            <FiCode />
+          <i className="uil uil-apps"></i>
           </div>
         </div>
       </nav>
