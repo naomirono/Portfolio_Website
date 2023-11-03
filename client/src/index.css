@@ -163,7 +163,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -408,8 +408,6 @@ img {
 
 /*==================== ABOUT ====================*/
 .about_img{
-    width: 400%;
-
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -446,7 +444,6 @@ img {
     display: flex;
     justify-content: center;
 }
-
 /*==================== SKILLS ====================*/
 .skills_container{
     row-gap: 0;
