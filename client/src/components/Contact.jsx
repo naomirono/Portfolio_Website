@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaPhoneAlt, FaTwitter, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const ContactSection = () => {
     
