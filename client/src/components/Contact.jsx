@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaEnvelope, FaPhoneAlt, FaTwitter, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa';
-import Image from '../assets/hero1.png'
 
 const ContactSection = () => {
     
@@ -10,7 +9,7 @@ const ContactSection = () => {
   };
   
   return (
-    <section id='contact' className="bg-custom-color">
+    <section id='contact' className="bg-custom-color h-[90vh] pt-16">
       <div className='py-16 px-4 sm:px-8'>
       <div className="container max-w-[1200px] mx-auto rounded-[24px] p-6 bg-white bg-opacity-40 backdrop-filter backdrop-blur-lg">
         <div className="flex flex-col md:flex-row">
