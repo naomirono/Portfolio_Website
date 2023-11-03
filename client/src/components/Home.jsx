@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
-import { FiMousePointer, FiArrowDown } from 'react-icons/fi';
+import { FiArrowDown } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -37,12 +39,16 @@ function Home() {
             <h1 className="home_title">Hi, I'am <span className="home_name">Naomi</span></h1>
             <h3 className="home_subtitle">Full Stack Web Developer</h3>
             <p className="home_description">Javascript developer building highly-accessible web applications.</p>
-            <a href="#contact" className="button button--flex">Contact Me<i className="uil uil-message button_icon"></i></a>
+            <Link
+             to="/contact" 
+             className="button button--flex">Contact Me <i class="uil uil-message button_icon"></i>
+            </Link>
           </div>
         </div>
 
         <div className="home_scroll">
-          <a href="#about" className="home_scroll-button button--flex"><FiMousePointer className="home_scroll-mouse" />
+          <a href="#about" className="home_scroll-button button--flex">
+          <i class="uil uil-mouse-alt home_scroll-mouse"></i>
             <span className="home_scroll-name">Scroll down</span>
             <FiArrowDown className="home_scroll-arrow" />
           </a>
