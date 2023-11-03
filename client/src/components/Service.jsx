@@ -34,7 +34,7 @@ function Services() {
       <div className="services_container container grid">
         <div className="services_content">
           <div>
-            <FiCode className="services_icon" />
+          <i class="uil uil-arrow services_icon"></i>
             <h3 className="services_title">Frontend <br /> Developer</h3>
           </div>
 
@@ -72,7 +72,7 @@ function Services() {
 
         <div className="services_content">
           <div>
-            <FiServer className="services_icon" />
+            <i class="uil uil-web-grid services_icon"></i>
             <h3 className="services_title">Backend <br /> Developer</h3>
           </div>
 
