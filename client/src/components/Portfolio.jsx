@@ -55,7 +55,7 @@ const Portfolio = () => {
                 <p className="portfolio_description">{item.description}</p>
                 <a href={item.demoLink} className="button button--flex button--small portfolio_button">
                 Demo
-                    <i class="uil uil-arrow-right button_icon"></i>
+                    <i className="uil uil-arrow-right button_icon"></i>
                 </a>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Portfolio = () => {
           >
             {'>'}
           </button>
-          <div className="border-b-2 border-custom-color w-[750px] absolute bottom-4 ml-32 "></div> {/* Added border */}
+          <div className="border-b-2 border-custom-color w-[750px] absolute bottom-4 ml-32 hidden lg:block"></div>
         </div>
       </div>
     </section>
