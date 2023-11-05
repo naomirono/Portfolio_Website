@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { FiCode, FiServer } from 'react-icons/fi';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 function Services() {
@@ -34,13 +33,13 @@ function Services() {
       <div className="services_container container grid">
         <div className="services_content">
           <div>
-          <i class="uil uil-arrow services_icon"></i>
+          <i className="uil uil-arrow services_icon"></i>
             <h3 className="services_title">Frontend <br /> Developer</h3>
           </div>
 
           <span className="button button--flex button--small button--link services_button">
             View More
-            <FiCode className="button_icon" />
+            <i class="uil uil-arrow-right button_icon"></i>
           </span>
 
           <div className="services_modal">
@@ -50,19 +49,19 @@ function Services() {
 
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
+                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p>I create interactive user interfaces.</p>
                 </li>
                 <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
+                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p>Implement responsive web design.</p>
                 </li>
                 <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
+                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p>Utilize modern JavaScript frameworks like React.</p>
                 </li>
                 <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
+                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p>Optimize website performance for fast loading times.</p>
                 </li>
               </ul>
@@ -72,13 +71,13 @@ function Services() {
 
         <div className="services_content">
           <div>
-            <i class="uil uil-web-grid services_icon"></i>
+            <i className="uil uil-web-grid services_icon"></i>
             <h3 className="services_title">Backend <br /> Developer</h3>
           </div>
 
           <span className="button button--flex button--small button--link services_button">
             View More
-            <FiCode className="button_icon" />
+            <i class="uil uil-arrow-right button_icon"></i>
           </span>
 
           <div className="services_modal">
@@ -88,19 +87,19 @@ function Services() {
 
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
+                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p>Design and implement server-side logic and APIs.</p>
                 </li>
                 <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
+                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p>Develop database architecture and management.</p>
                 </li>
                 <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
+                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p>Ensure system scalability and performance.</p>
                 </li>
                 <li className="services_modal-service">
-                  <FiCode className="services_modal-icon" />
+                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p>Implement security measures to protect data and user information.</p>
                 </li>
               </ul>
