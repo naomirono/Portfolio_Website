@@ -1,7 +1,7 @@
 export const portfolioItems = [
     {
       imgSrc: 'https://neyoportfolio.s3.eu-north-1.amazonaws.com/TreeHaven.png',
-      title: 'Tree Planting Website with Stripe and M-Pesa Integration',
+      title: 'Tree Planting Website with Stripe Integration',
       description: 'Built a dynamic tree planting website utilizing React and Tailwind Css for the frontend, Node.js for the backend, and MongoDB for the database. Skillfully integrated both Stripe and M-Pesa payment gateways to streamline donation processing, showcasing expertise in front-end development, payment integration, and API utilization.',
       demoLink: 'https://treehaven-neyo.web.app',
     },
