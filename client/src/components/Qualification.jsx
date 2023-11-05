@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import { FiCode, FiServer } from 'react-icons/fi';
-import { FiCalendar } from 'react-icons/fi'; // Added this line
+import { FiCalendar } from 'react-icons/fi'; 
 
 function Qualification() {
   useEffect(() => {
@@ -24,7 +23,7 @@ function Qualification() {
         tab.classList.add('qualification_active');
       });
     });
-  }, []); // Run this effect only once when component mounts
+  }, []); 
 
   return (
     <section className="qualification section">
@@ -49,7 +48,7 @@ function Qualification() {
                 <h3 className="qualification_title">Full Stack Web Development</h3>
                 <span className="qualification_subtitle">Udemy</span>
                 <div className="qualification_calendar">
-                  <FiCalendar /> {/* Replaced <i> tag with React icon */}
+                  <FiCalendar /> 
                   2022 - 2022
                 </div>
               </div>
@@ -71,7 +70,7 @@ function Qualification() {
                 <h3 className="qualification_title">Applied Statistics With Computing</h3>
                 <span className="qualification_subtitle">Moi University</span>
                 <div className="qualification_calendar">
-                  <FiCalendar /> {/* Replaced <i> tag with React icon */}
+                  <FiCalendar /> 
                   2016 - 2021
                 </div>
               </div>
@@ -84,7 +83,7 @@ function Qualification() {
                 <h3 className="qualification_title">Software Engineer Intern</h3>
                 <span className="qualification_subtitle">Amaris Solution Group</span>
                 <div className="qualification_calendar">
-                  <FiCalendar /> {/* Replaced <i> tag with React icon */}
+                  <FiCalendar /> 
                   April 2023 - July 2023
                 </div>
               </div>
@@ -106,7 +105,7 @@ function Qualification() {
                 <h3 className="qualification_title">Intern</h3>
                 <span className="qualification_subtitle">Unilever Tea Limited</span>
                 <div className="qualification_calendar">
-                  <FiCalendar /> {/* Replaced <i> tag with React icon */}
+                  <FiCalendar /> 
                   2020 - 2020
                 </div>
               </div>
