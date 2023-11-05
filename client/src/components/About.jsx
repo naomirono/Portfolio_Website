@@ -9,16 +9,16 @@ const About = () => {
       <h2 className="text-4xl font-bold mb-4 text-center">About Me</h2>
             <span className="section_subtitle block mb-6 text-center">My Introduction</span>
         <div className="flex flex-col md:flex-row items-center justify-center">
-          <div className="md:w-1/2 pb-36">
+          <div className="md:w-1/2 pb-36 hidden lg:block">
             <div className="relative">
             <div
-                className="w-full h-[250px] md:max-w-md about_div"
+                className="w-full md:w-5/6 h-[250px] md:max-w-md about_div rounded-2xl"
               />
               
               <img
                 src={Image}
                 alt="Image"
-                className="w-full md:w-5/6 absolute bottom-0 right-0 md:mr-[-10%] md:mb-[-17%] border border-2 bg-white"
+                className="w-full md:w-5/6 absolute top-20 left-24 md:mr-[-10%] md:mb-[-17%]  rounded-2xl img_div"
               />
             </div>
           </div>
