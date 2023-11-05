@@ -32,7 +32,7 @@ const Header = () => {
           Naomi
         </a>
 
-        <div className={`nav_menu ${showMenu ? 'show-menu' : ''}`} id="nav-menu">
+        <div className={`nav_menu ${showMenu ? 'show-menu' : ''} max-w-screen-lg mx-auto`} id="nav-menu">
           <ul className="nav_list grid">
             <li className="nav_item">
               <a href="#home" className="nav_link active-link">
