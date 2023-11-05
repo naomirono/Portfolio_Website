@@ -163,10 +163,11 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 1000px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
+  max-width: 1100px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 
 .grid {
   display: grid;
@@ -180,6 +181,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+  
 }
 
 /*==================== NAV ====================*/
@@ -264,10 +266,6 @@ img {
     bottom: 0;
 }
 
-/* Active link */
-.active-link{
-     color: var(--first-color);
-}
 
 /* Change background header */
 .scroll-header{
@@ -445,8 +443,12 @@ img {
     justify-content: center;
 }
 .about_div{
+    border: 5px solid var(--first-color);
+} 
+.img_div{
+    
     background-color:var(--first-color);
-}  
+} 
 /*==================== SKILLS ====================*/
 .skills_container{
     row-gap: 0;
@@ -982,6 +984,9 @@ background-color: var(--text-color-light);
         display: grid;
         grid-template-columns: .6fr;
         justify-content: center;
+    }
+    .header{
+        width:85%;
     }
 }
 
