@@ -9,9 +9,9 @@ const ContactSection = () => {
   };
   
   return (
-    <section id='contact' className="bg-custom-color h-[90vh] pt-16">
+    <section id='contact' className=" h-[90vh] pt-16">
       <div className='py-16 px-4 sm:px-8'>
-      <div className="container max-w-[1200px] mx-auto rounded-[24px] p-6 bg-white bg-opacity-40 backdrop-filter backdrop-blur-lg">
+      <div className="container max-w-[1200px] mx-auto rounded-[24px] p-6 bg-white bg-opacity-40 backdrop-filter backdrop-blur-l contact_border">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Me</h2>
@@ -19,7 +19,7 @@ const ContactSection = () => {
             <ul className="text-gray-800">
               <li className="mb-2"><FaEnvelope className="inline-block mr-2 text-custom-color cursor-pointer" /> Email: naomirono1454@gmail.com</li>
               <li className="mb-2"><FaPhoneAlt className="inline-block mr-2 text-custom-color cursor-pointer" /> Phone: +254706535423</li>
-              <li className="mb-2"><FaLinkedin className="inline-block mr-2 text-blue-700 cursor-pointer" /> <a href="http://www.linkedin.com/in/naomi-rono/" target="_blank" rel="noopener noreferrer">LinkedIn: @YourName</a></li>
+              <li className="mb-2"><FaLinkedin className="inline-block mr-2 text-blue-700 cursor-pointer" /> <a href="http://www.linkedin.com/in/naomi-rono/" target="_blank" rel="noopener noreferrer">LinkedIn: @Naomi Cherotich</a></li>
               <li className="mb-2"><FaGithub className="inline-block mr-2 text-black cursor-pointer" /> <a href="https://github.com/naomirono" target="_blank" rel="noopener noreferrer">Github: @naomirono</a></li>
               <li><FaTwitter className="inline-block mr-2 text-blue-500 cursor-pointer" /> Twitter: @naomirono</li>
             </ul>
