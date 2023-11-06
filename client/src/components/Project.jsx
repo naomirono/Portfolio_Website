@@ -19,7 +19,7 @@ function Project() {
               <FaComment className="project_icon button_icon" />
             </Link>
           </div>
-          <img src="src/assets/IMG_5480.png" alt="" className="project_img" />
+          <img src="https://neyoportfolio.s3.eu-north-1.amazonaws.com/NeyoPortfolio1.png" alt="" className="project_img" />
         </div>
       </div>
     </section>
