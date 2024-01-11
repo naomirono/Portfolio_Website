@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaFileDownload } from 'react-icons/fa';
 import Image from '../assets/IMG_7072.png';
 
@@ -25,7 +24,7 @@ const About = () => {
           <div className="md:w-1/2 mt-8 md:mt-0 md:ml-20">
 
             <p className="text-lg">
-              A highly motivated and dedicated frontend developer with a passion for creating immersive web experiences. I specialise in transforming design concepts into responsive and user-friendly websites.My journey in the world of web development began when I discovered my love for crafting elegant and functional interfaces. With a solid foundation in HTML, CSS, and JavaScript, I have honed my skills through various personal projects that I have proudly showcased on my LinkedIn profile.
+              A highly motivated and dedicated frontend developer with a passion for creating immersive web experiences. I specialise in transforming design concepts into responsive and user-friendly websites.My journey in the world of web development began when I discovered my love for crafting elegant and functional interfaces. With a solid foundation in HTML, CSS, Tailwind CSS, JavaScript and React, I have had the opportunity to work on diverse projects that allowed me to hone my skills in both frontend development and backend development. I pride myself on writing clean and maintainable code to create user-friendly interfaces and seamless user experiences..
             </p>
 
             <div className="about_info flex justify-center mb-6">
