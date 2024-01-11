@@ -1,5 +1,11 @@
 export const portfolioItems = [
-    {
+  {
+    imgSrc: 'https://neyoportfolio.s3.eu-north-1.amazonaws.com/CateringPost.png',
+    title: 'Chef Connect Website',
+    description: 'Successfully crafted a website using React and Tailwind CSS on the frontend, and powered the backend with Node.js and MongoDB. Implemented a robust user authentication system with Sign Up, Login, Reset Password, and Sign Out functionalities using Redux Toolkit, MongoDB, Node.js, and JWT for an extra layer of security. The seamless integration of these technologies ensures a secure and user-friendly experience.' ,
+    demoLink: 'https://chef-connect-neyo.web.app/',
+  },
+  {
       imgSrc: 'https://neyoportfolio.s3.eu-north-1.amazonaws.com/TreeHaven.png',
       title: 'Tree Planting Website with Stripe Integration',
       description: 'Built a dynamic tree planting website utilizing React and Tailwind Css for the frontend, Node.js for the backend, and MongoDB for the database. Skillfully integrated both Stripe and M-Pesa payment gateways to streamline donation processing, showcasing expertise in front-end development, payment integration, and API utilization.',
