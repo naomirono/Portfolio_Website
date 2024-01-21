@@ -46,7 +46,7 @@ const About = () => {
 
             <div className="about_buttons text-center">
               <a
-                href="https://neyoportfolio.s3.eu-north-1.amazonaws.com/Naomi+Cherotich+-+Resume.pdf"
+                href="https://neyoportfolio.s3.eu-north-1.amazonaws.com/Resume-NaomiCherotich.pdf"
                 download=""
                 className="button button--flex"
               >
