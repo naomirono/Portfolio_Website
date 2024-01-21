@@ -93,6 +93,7 @@ body.dark-theme{
 .nav_btns{
     display: flex;
     align-items: center;
+    margin-right: 2rem;
 }
 .change-theme{
     font-size:1.25rem ;
@@ -191,6 +192,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--body-color);
 }
 .nav_logo{
     font-family: cursive;
@@ -990,7 +992,7 @@ background-color: var(--text-color-light);
         justify-content: center;
     }
     .header{
-        width:85%;
+        width:100%;
     }
 }
 
@@ -1014,7 +1016,6 @@ background-color: var(--text-color-light);
         bottom: initial;
     }
     .header,
-    .main,
     .footer_container{
         padding:0 1rem ;
     }
