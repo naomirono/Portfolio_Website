@@ -39,14 +39,14 @@ const About = () => {
               </div>
 
               <div className="text-center mx-4">
-                <span className="about_info-title">01</span>
+                <span className="about_info-title">02</span>
                 <span className="about_info-name block">Companies worked</span>
               </div>
             </div>
 
             <div className="about_buttons text-center">
               <a
-                href="https://neyoportfolio.s3.eu-north-1.amazonaws.com/Resume-NaomiCherotich.pdf"
+                href="https://neyoportfolio.s3.eu-north-1.amazonaws.com/Resume-CherotichN.pdf"
                 download=""
                 className="button button--flex"
               >

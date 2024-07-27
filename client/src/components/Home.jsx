@@ -18,9 +18,6 @@ function Home() {
               <FaGithub />
             </a>
 
-            <a href="https://twitter.com/NeyoRono" className="home_social-icon">
-              <FaTwitter />
-            </a>
           </div>
 
           <div className="home_img">
@@ -37,7 +34,7 @@ function Home() {
 
           <div className="home_data">
             <h1 className="home_title">Hi, I'am <span className="home_name">Naomi</span></h1>
-            <h3 className="home_subtitle">Full Stack Web Developer</h3>
+            <h3 className="home_subtitle">Frontend Web Developer</h3>
             <p className="home_description">Javascript developer building highly-accessible web applications.</p>
             <Link
              to="/contact" 

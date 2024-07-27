@@ -22,7 +22,7 @@ function Skills() {
       icon: <i className="uil uil-brackets-curly skills_icon"></i>,
       title: 'Frontend Developer',
       subtitle: 'More than 1 year',
-      items: ['HTML5', 'CSS3', 'TailwindCss', 'Javascript', 'React']
+      items: ['HTML5', 'CSS3', 'TailwindCss', 'Javascript', 'React', 'NextJs']
     },
     {
       icon: <i className="uil uil-server-network skills_icon"></i>,
@@ -34,7 +34,7 @@ function Skills() {
       icon: <FiServer className="skills_icon" />,
       title: 'Version Control Tools',
       subtitle: 'More than 1 year',
-      items: ['Git', 'Github']
+      items: ['Git', 'Github', 'Gitlab']
     }
   ];
 
